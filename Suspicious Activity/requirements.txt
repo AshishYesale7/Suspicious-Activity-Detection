@@ -1,5 +1,5 @@
 numpy==1.21.5
-opencv-python==4.5.5.64
+opencv-python==4.8.1.78
 tensorflow==2.8.0
 pillow==9.0.1
 python-dotenv==0.19.2
