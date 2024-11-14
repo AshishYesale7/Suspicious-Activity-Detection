@@ -1,4 +1,4 @@
-<content>import nodemailer from 'nodemailer';
+import nodemailer from 'nodemailer';
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -39,4 +39,6 @@ export const sendNotification = async (detectionResult) => {
   } catch (error) {
     console.error('Error sending email:', error);
   }
-};</content>
+};
+
+
